@@ -10,7 +10,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/icon3"
         android:theme="@style/AppTheme.NoActionBar" >
-        <activity android:name=".Main" >
+        <activity android:name=".Activity.Main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,18 +18,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".Activity.LoginActivity"
             android:windowSoftInputMode="stateUnchanged|adjustPan" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".Activity.RegisterActivity"
             android:windowSoftInputMode="stateUnchanged|adjustPan" />
 
         <service
             android:name=".Utils.NetworkStateService"
             android:enabled="true" />
 
-        <activity android:name=".Activity.MainActivity" >
-        </activity>
+
         <activity android:name=".Activity.HomePage" >
         </activity>
     </application>
