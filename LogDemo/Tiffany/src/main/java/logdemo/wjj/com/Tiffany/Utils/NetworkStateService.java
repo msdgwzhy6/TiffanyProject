@@ -13,14 +13,11 @@ import android.net.NetworkInfo;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
-import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.apkfuns.logutils.LogUtils;
-
-import logdemo.wjj.com.Tiffany.Main;
 
 /**
  * Created by Ezreal on 2015/10/16.

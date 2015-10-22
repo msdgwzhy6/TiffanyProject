@@ -1,4 +1,4 @@
-package logdemo.wjj.com.Tiffany;
+package logdemo.wjj.com.Tiffany.Activity;
 
 
 import android.app.Activity;
@@ -13,6 +13,7 @@ import java.util.TimerTask;
 
 import logdemo.wjj.com.Tiffany.Anim.Techniques;
 import logdemo.wjj.com.Tiffany.Anim.YoYo;
+import logdemo.wjj.com.Tiffany.R;
 import logdemo.wjj.com.Tiffany.Utils.BaseActivity;
 
 public class Main extends BaseActivity {

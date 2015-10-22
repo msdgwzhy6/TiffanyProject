@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/reg_bg"
     android:fitsSystemWindows="true"
-    tools:context="logdemo.wjj.com.Tiffany.RegisterActivity">
+    tools:context="logdemo.wjj.com.Tiffany.Activity.RegisterActivity">
 
 
     <RelativeLayout
@@ -96,9 +96,9 @@
             android:textColor="@color/white"
             android:id="@+id/registerbutton"
             android:background="@drawable/layout_bg"
-            android:layout_above="@+id/go_to_login"
+            android:layout_below="@+id/relativeLayout"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp" />
+            android:layout_marginTop="30dp" />
 
 
     <TextView
@@ -106,12 +106,12 @@
         android:layout_height="wrap_content"
         android:text="@string/go_to_login"
         android:id="@+id/go_to_login"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
         android:textColor="@color/white"
         android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_below="@+id/registerbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
 
 
 </RelativeLayout>

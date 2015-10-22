@@ -42,7 +42,7 @@ public class IconEditText extends LinearLayout {
     /**
      * 是否为密码属性
      */
-    private boolean _isPassword = false;
+    private boolean _isPassword;
 
     /**
      * 空间组成
@@ -52,6 +52,7 @@ public class IconEditText extends LinearLayout {
 
     /**
      * 构造函数
+     *
      * @param context
      */
     public IconEditText(Context context) {
@@ -60,6 +61,7 @@ public class IconEditText extends LinearLayout {
 
     /**
      * 构造函数
+     *
      * @param context
      * @param attrs
      */
@@ -69,6 +71,7 @@ public class IconEditText extends LinearLayout {
 
     /**
      * 构造函数
+     *
      * @param context
      * @param attrs
      * @param defStyleAttr

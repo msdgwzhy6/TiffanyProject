@@ -3,6 +3,9 @@ package logdemo.wjj.com.Tiffany;
 import android.app.Activity;
 import android.content.Intent;
 
+import logdemo.wjj.com.Tiffany.Activity.LoginActivity;
+import logdemo.wjj.com.Tiffany.Activity.RegisterActivity;
+
 /**
  * Created by Ezreal on 2015/10/16.
  */

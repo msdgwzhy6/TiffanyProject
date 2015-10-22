@@ -1,4 +1,4 @@
-package logdemo.wjj.com.Tiffany;
+package logdemo.wjj.com.Tiffany.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,6 +20,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import logdemo.wjj.com.Tiffany.Custom.IconEditText;
+import logdemo.wjj.com.Tiffany.PageSwitch;
+import logdemo.wjj.com.Tiffany.R;
 import logdemo.wjj.com.Tiffany.Utils.BaseActivity;
 
 public class RegisterActivity extends BaseActivity implements View.OnClickListener {

@@ -1,8 +1,6 @@
-package logdemo.wjj.com.Tiffany;
+package logdemo.wjj.com.Tiffany.Activity;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
@@ -22,6 +20,8 @@ import com.nineoldandroids.animation.Animator;
 import logdemo.wjj.com.Tiffany.Anim.Techniques;
 import logdemo.wjj.com.Tiffany.Anim.YoYo;
 import logdemo.wjj.com.Tiffany.Custom.IconEditText;
+import logdemo.wjj.com.Tiffany.PageSwitch;
+import logdemo.wjj.com.Tiffany.R;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     final static String TAG = LoginActivity.class.getName() + ".TAG";
