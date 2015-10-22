@@ -3,6 +3,7 @@ package logdemo.wjj.com.Tiffany;
 import android.app.Activity;
 import android.content.Intent;
 
+import logdemo.wjj.com.Tiffany.Activity.HomePage;
 import logdemo.wjj.com.Tiffany.Activity.LoginActivity;
 import logdemo.wjj.com.Tiffany.Activity.RegisterActivity;
 
@@ -18,6 +19,11 @@ public class PageSwitch {
 
     public static void goToRegisterActivity(Activity activity) {
         Intent intent=new Intent(activity,RegisterActivity.class);
+        activity.startActivity(intent);
+    }
+
+    public static void goToHomePage(Activity activity) {
+        Intent intent=new Intent(activity,HomePage.class);
         activity.startActivity(intent);
     }
 

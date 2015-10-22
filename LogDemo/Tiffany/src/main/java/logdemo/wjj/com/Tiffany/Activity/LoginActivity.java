@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,7 +30,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private long exitTime = 0;
     private IconEditText users, password;
     private Button login;
-    private TextView go_to_register;
+    private RelativeLayout go_to_register;
     private String User, Password;
     private YoYo.YoYoString rope;
 
@@ -50,7 +51,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         users = (IconEditText) findViewById(R.id.user);
         password = (IconEditText) findViewById(R.id.password);
 
-        go_to_register = (TextView) findViewById(R.id.go_to_reg);
+        go_to_register = (RelativeLayout) findViewById(R.id.go_to_reg);
 
         login = (Button) findViewById(R.id.login);
 
@@ -104,6 +105,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             makeAnim(users, password);
         } else {
             Toast.makeText(LoginActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
+            PageSwitch.goToHomePage(LoginActivity.this);
         }
     }
 

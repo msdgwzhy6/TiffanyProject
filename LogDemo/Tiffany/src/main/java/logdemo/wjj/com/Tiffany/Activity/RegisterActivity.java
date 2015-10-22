@@ -8,6 +8,7 @@ import android.os.Message;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,7 +33,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
 
     private IconEditText password, user, phone, message;
     private Button registerButton, send_msg;
-    private TextView go_to_login;
+    private RelativeLayout go_to_login;
 
     Timer timer = new Timer();
 
@@ -78,7 +79,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         registerButton = (Button) findViewById(R.id.registerbutton);
         send_msg = (Button) findViewById(R.id.send_msg);
 
-        go_to_login = (TextView) findViewById(R.id.go_to_login);
+        go_to_login = (RelativeLayout) findViewById(R.id.go_to_login);
     }
 
     @Override
